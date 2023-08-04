@@ -1,0 +1,31 @@
+/* スタイルを適宜調整してください */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.row label {
+  margin-right: 10px;
+  width: 100px;
+}
+
+.row select {
+  width: 200px;
+}
+
+.row .amount {
+  width: 100px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  text-align: center;
+}
